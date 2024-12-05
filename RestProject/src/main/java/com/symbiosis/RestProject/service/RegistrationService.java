@@ -2,8 +2,10 @@ package com.symbiosis.RestProject.service;
 
 import java.util.List;
 
-import com.symbiosis.RestProject.model.Registration;
+import org.springframework.stereotype.Service;
 
+import com.symbiosis.RestProject.model.Registration;
+@Service
 public interface RegistrationService {
 Registration insertrecord(Registration r);
 List<Registration>getAll();
